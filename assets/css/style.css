@@ -1,0 +1,64 @@
+body {
+	width: 100%;
+	background-color: #36538B;
+}
+
+@font-face {
+    font-family: vault;
+    src: url(fonts/monofonto.ttf);
+}
+
+@font-face {
+	font-family: overseer;
+	src: url(fonts/Overseer_Italic.otf);
+}
+
+h2 {
+	color: #EAC851;
+	font-family: vault;
+	font-size: 24px;
+}
+
+.logo {
+	font-family: overseer;
+	font-size: 70px;
+	text-align: center;
+	color: #EAC851;
+	margin-top: 0px;
+}
+
+p {
+	color: #EAC851;
+	font-family: vault;
+}
+
+.vault-tec {
+	width: 400px;
+	margin: 0 auto;
+	display: block;
+}
+
+.vaultboy {
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+}
+
+.text-muted {
+	text-align: center;
+}
+
+#game {
+	border-width: 5px;
+	border-style: dashed;
+	border-color: #EAC851;
+	padding: 5px;
+	height: 227.8px;
+}
+
+.vaultboy-border {
+	border-width: 5px;
+	border-style: dashed;
+	border-color: #EAC851;
+	padding: 5px;
+}
