@@ -59,6 +59,7 @@ document.onkeyup = function(event) {
 		}
 		if (dashes.includes("_") === false){
 			wins++;
+			lives=10;
 			guesses = [];
 			dashes = [];
 			gameReset();
